@@ -147,3 +147,34 @@ main .galeria article{
 	border-top:1px solid var(--ctext2-osc);
 	margin-top:1rem;
 }
+
+
+@media (max-width: 1113px){
+	nav ul{
+		gap:.8em;
+		padding:.8em;
+	}
+}
+@media (max-width: 872px){
+	#logo{
+		height:64px;
+		margin:.3em .25em;
+	}
+	nav ul{
+		gap:.2em;
+		padding:.25em .1em;
+	}
+}
+@media (max-width: 758px){
+	nav ul{
+		gap:.1em;
+		padding:.1em;
+	}
+	nav li:first-child{
+		display:none;
+	}
+	nav li a,
+	nav li.actual{
+		padding:.8em .5em;
+	}
+}
