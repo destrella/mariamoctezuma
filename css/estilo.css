@@ -139,3 +139,11 @@ main .galeria article{
 	transform:rotate(-12deg) scale(1.3) translateY(-.8em);
 	background:var(--color-enf);
 }
+
+.legal{
+	text-align:center;
+	font-size:.8em;
+	padding-top:1em;
+	border-top:1px solid var(--ctext2-osc);
+	margin-top:1rem;
+}
