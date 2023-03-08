@@ -175,7 +175,7 @@ main.tricol{
 	flex-flow: row wrap;
 	flex-shrink: 0;
 	justify-content:space-between;
-	gap:1em;
+	gap:1rem;
 }
 
 @media (max-width: 1113px){
