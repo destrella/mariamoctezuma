@@ -206,4 +206,7 @@ main.tricol{
 	nav li.actual{
 		padding:.8em .5em;
 	}
+	.slider video + div{
+		font-size:1.5em;
+	}
 }
