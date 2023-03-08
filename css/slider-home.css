@@ -9,7 +9,9 @@
 	aspect-ratio: 1;
 	position:relative;
 	width:500px;
-	max-width:100%;
+	max-width:calc(100vw - 3rem);
+	margin:0;
+	padding:0;
 }
 
 .slideshow li span { 
