@@ -81,8 +81,27 @@ nav li a:hover{
 .slider .slide{
 	max-width:100%;
 }
-.slider img{
+.slider img,
+.slider video{
 	object-fit:cover;
+	max-width:100%;
+	height:auto;
+}
+.slider .slide{
+	position: relative;
+}
+.slider video + div{
+	position:absolute;
+	top:auto;
+	left:auto;
+	right:1em;
+	bottom:.8em;
+	font-size:2em;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:right;
+	opacity:.69;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 main{
