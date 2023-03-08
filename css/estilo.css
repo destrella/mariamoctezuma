@@ -26,6 +26,9 @@ img{
 	max-width:100%;
 	height:auto;
 }
+iframe{
+	max-width:100%;
+}
 #logo{
 	background:url(/img/logo-maria-moctezuma-naranja.png) no-repeat .5em 50%;
 	background-size:contain;
@@ -167,6 +170,13 @@ main .galeria article{
 	margin-top:1rem;
 }
 
+main.tricol{
+	display:flex;
+	flex-flow: row wrap;
+	flex-shrink: 0;
+	justify-content:space-between;
+	gap:1em;
+}
 
 @media (max-width: 1113px){
 	nav ul{
