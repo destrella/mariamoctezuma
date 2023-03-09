@@ -37,6 +37,15 @@ iframe{
 	margin:1em .5em;
 	font-size:1.8em;
 }
+#logo a,
+#logo a:visited,
+#logo a:hover,
+#logo a:active{
+	display: inline-block;
+	height: 100%;
+	color: transparent;
+	font-size: 1.2em;
+}
 header#header{
 	max-width:var(--ancho-total);
 	margin:0 auto;
