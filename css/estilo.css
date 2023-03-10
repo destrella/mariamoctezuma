@@ -200,6 +200,10 @@ main .galeria article{
 	flex:1 1 auto;
 	text-align:center;
 }
+.tricol > article{
+	border-bottom: 1px solid #fff5;
+	margin-bottom: 1.3em;
+}
 
 .imgtxt{
 	vertical-align: top;
