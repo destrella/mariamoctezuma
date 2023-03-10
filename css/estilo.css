@@ -209,6 +209,10 @@ main.tricol > div{
 	float:left;
 	margin-right:1em;
 }
+
+.txt-cen{
+	text-align:center;
+}
 footer{
 	clear:both;
 }
