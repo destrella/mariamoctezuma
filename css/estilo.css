@@ -196,6 +196,23 @@ main.tricol > div{
 	text-align:center;
 }
 
+.imgtxt{
+	vertical-align: top;
+	border-radius:3px;
+	margin-bottom:.5em;
+}
+.a-der{
+	float:right;
+	margin-left:1rem;
+}
+.a-izq{
+	float:left;
+	margin-right:1em;
+}
+footer{
+	clear:both;
+}
+
 @media (max-width: 1113px){
 	nav ul{
 		gap:.8em;
