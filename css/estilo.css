@@ -29,10 +29,7 @@ img{
 iframe{
 	max-width:100%;
 }
-.slide iframe{
-	aspect-ratio:21/9;
-	height:auto;
-}
+
 #logo{
 	background:url(/img/logo-maria-moctezuma-naranja.png) no-repeat .5em 50%;
 	background-size:contain;
@@ -90,14 +87,26 @@ nav li a:hover{
 	background-color:var(--color-enf);
 }
 
+yt-vid{
+	width:560px;
+	min-width:300px;
+	max-width:100%;
+	margin:0 auto;
+}
 .slider{
 	max-width:2048px;
 	aspect-ratio: 21 / 9;
 	margin:0 auto;
 	overflow: hidden;
+	position:relative;
 }
 .slider .slide{
 	max-width:100%;
+	height:100%;
+}
+.slide iframe,
+.slide yt-vid{
+	width:100%;
 }
 .slider img,
 .slider video{
