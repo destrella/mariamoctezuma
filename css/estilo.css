@@ -193,8 +193,8 @@ main .galeria article{
 	text-align:center;
 	font-size:.8em;
 	padding-top:1em;
-	border-top:1px solid var(--ctext2-osc);
-	margin-top:1rem;
+	border-top:1px solid var(--fondo-nav);
+	margin-top:2rem;
 }
 
 .tricol{
@@ -233,6 +233,9 @@ main .galeria article{
 }
 footer{
 	clear:both;
+}
+.legal .mmoc{
+	color:var(--fondo-nav);
 }
 
 @media (max-width: 1113px){
