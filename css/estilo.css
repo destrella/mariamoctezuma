@@ -129,6 +129,15 @@ main{
 h1,h2,h3,h4,h5,h6,.mmoc{
 	font-family: 'Shadows Into Light', cursive;
 }
+.home h2,.home h3{
+	border-bottom:3px solid;
+  	border-image: linear-gradient(to right, var(--fondo-nav) 60px, transparent 60px) 100% 1;
+	width:fit-content;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:2rem
+}
+
 .mmoc{
 	font-size:1.1em;
 }
