@@ -59,7 +59,7 @@ export class LiteYTEmbed extends HTMLElement {
 		return this.hasAttribute('showinfo') ? '' : '&showinfo=0';
 	}
 	get posterQuality() {
-		return this.getAttribute('posterquality') || 'maxresdefault';
+		return this.getAttribute('posterquality') || 'hqdefault';
 	}
 	get posterLoading() {
 		return (this.getAttribute('posterloading') ||
