@@ -87,7 +87,8 @@ nav li a:hover{
 	background-color:var(--color-enf);
 }
 
-yt-vid{
+yt-vid,
+.yt-vid-fall{
 	width:560px;
 	min-width:300px;
 	max-width:100%;
@@ -105,15 +106,44 @@ yt-vid{
 	height:100%;
 }
 .slide iframe,
-.slide yt-vid{
+.slide yt-vid,
+.slider .yt-vid-fall{
 	width:100%;
 }
 .slider img,
-.slider video{
+.slider video,
+.yt-vid-fall{
 	object-fit:cover;
 	max-width:100%;
 	height:auto;
 }
+.yt-vid-fall{
+	display:block;
+	aspect-ratio: 16/9;
+	position:relative;
+}
+.slider .yt-vid-fall{
+	aspect-ratio:21/9;
+}
+.yt-vid-fall picture{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+.yt-vid-fall img{
+	width:100%;
+	object-fit: cover;
+	aspect-ratio: 16/9;
+}
+.slider .yt-vid-fall img{
+	aspect-ratio: 21/9;
+}
+
+.yt-vid-fall picture:focus {
+	outline: 2px solid red;
+}
+
 .slider .slide{
 	position: relative;
 }
