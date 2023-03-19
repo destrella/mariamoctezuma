@@ -12,13 +12,13 @@
 }
 
 .csslider1 {
-  display: inline-block;
+  display: block;
   position: relative;
-
   height: 878px;
-
-
   width: 100%;
+  max-width:2048px;
+  margin:0 auto;
+  aspect-ratio: 21/9;
 }
 .csslider1,
 .csslider1 *,
