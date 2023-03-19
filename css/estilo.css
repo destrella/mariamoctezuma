@@ -82,14 +82,14 @@ nav li.actual{
 	cursor:default;
 	background-color:var(--color-enf);
 }
-nav li a:hover{
-	transform: translateY(-.8em);
-	background-color:var(--color-enf);
-}
 a,
 a:visited{
 	color:var(--color-enf);
 	text-decoration:none;
+}
+nav li a:hover{
+	transform: translateY(-.8em);
+	background-color:var(--color-enf);
 }
 a:active,
 a:focus,
