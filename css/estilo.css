@@ -96,7 +96,8 @@ a:focus,
 a:hover{
 	text-decoration: underline;
 }
-nav a{
+nav a,
+nav a:visited{
 	color:var(--ctexto-osc);
 }
 
