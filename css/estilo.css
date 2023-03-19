@@ -86,6 +86,16 @@ nav li a:hover{
 	transform: translateY(-.8em);
 	background-color:var(--color-enf);
 }
+a,
+a:visited{
+	color:var(--color-enf);
+	text-decoration:none;
+}
+a:active,
+a:focus,
+a:hover{
+	text-decoration: underline;
+}
 
 yt-vid,
 .yt-vid-fall{
@@ -286,6 +296,10 @@ footer{
 }
 .legal .mmoc{
 	color:var(--fondo-nav);
+}
+
+main footer{
+	font-size:smaller;
 }
 
 @media (max-width: 1113px){
