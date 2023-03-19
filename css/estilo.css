@@ -102,8 +102,7 @@ nav a{
 
 yt-vid,
 .yt-vid-fall{
-	width:560px;
-	min-width:300px;
+	min-width:min(560px, calc(100vw - 4em));
 	max-width:100%;
 	margin:0 auto;
 }
