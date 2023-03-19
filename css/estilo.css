@@ -68,7 +68,7 @@ nav li{
 	flex: auto;
 	font-size:.85em;
 }
-nav li a,
+nav li:not(.actual) a,
 nav li.actual{
 	transition: all .3s;
 	padding:1em;
@@ -95,6 +95,9 @@ a:active,
 a:focus,
 a:hover{
 	text-decoration: underline;
+}
+nav a{
+	color:var(--ctexto-osc);
 }
 
 yt-vid,
