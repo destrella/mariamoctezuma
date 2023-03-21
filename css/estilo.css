@@ -100,6 +100,9 @@ nav a,
 nav a:visited{
 	color:var(--ctexto-osc);
 }
+main a{
+	word-wrap: break-word;
+}
 
 yt-vid,
 .yt-vid-fall{
