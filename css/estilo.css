@@ -34,7 +34,7 @@ iframe{
 #header nav li{padding:0;display:inline-block;text-transform: uppercase;}
 #header nav a,#header nav li.actual{padding:.75rem;display:block;color:var(--ctext-osc);text-decoration:none;}
 #header nav a:active,#header nav a:hover,#header nav li.actual{background-color:var(--color-enf);border-radius:3px;}
-#header nav a:active,#header nav a:hover{margin-top:-1rem;transition:all .3s}
+#header nav a:active,#header nav a:hover{margin-top:-.75em;transition:all .3s}
 
 a,
 a:visited{
