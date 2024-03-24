@@ -41,7 +41,7 @@ a:hover{
 #header{display:grid;grid-template-columns:250px 1fr;gap:1em;align-content: center;background-color:var(--fondo-nav);color:var(--ctexto-osc);border:1rem solid var(--fondo-nav);border-top-width:1px;border-bottom-width:1px;padding-top:env(safe-area-inset-top);padding-left:max(1em, env(safe-area-inset-left));padding-right:max(1em, env(safe-area-inset-right));padding-bottom:env(safe-area-inset-bottom);}
 #logo{background:url(/img/maria-moctezuma-logo-blanco.svg) 50% 50% no-repeat;color:transparent;font-size:9px;min-height:4rem;background-size:contain;overflow:hidden;}
 #logo a,#logo a:visited,#logo a:active,#logo a:hover{display:block;width:100%;height:100%;color:transparent;}
-#header nav ul{margin:0;padding:0;display:flex;height:100%;align-items:center;justify-content:center;}
+#header nav ul{margin:0;padding:0;display:flex;flex-wrap:wrap;height:100%;align-items:center;justify-content:center;}
 #header nav li{padding:0;display:inline-block;text-transform: uppercase;}
 #header nav a,#header nav li.actual{padding:.75rem;display:block;color:var(--ctext-osc);text-decoration:none;}
 #header nav a:active,#header nav a:hover,#header nav li.actual{background-color:var(--color-enf);border-radius:3px;}
