@@ -41,10 +41,6 @@ a:visited{
 	color:var(--color-enf);
 	text-decoration:none;
 }
-nav li a:hover{
-	transform: translateY(-.8em);
-	background-color:var(--color-enf);
-}
 a:active,
 a:focus,
 a:hover{
