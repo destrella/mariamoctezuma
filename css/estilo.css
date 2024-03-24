@@ -61,6 +61,7 @@ yt-vid,
 }
 .slider{
 	width:100vw;
+	max-width:100%;
 	aspect-ratio: 21 / 9;
 	margin:0 auto;
 	overflow: hidden;
