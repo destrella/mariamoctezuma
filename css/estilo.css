@@ -23,7 +23,7 @@ body{
 img,video{
 	max-width:100%;
 	height:auto;
-	pointer-evens:none;
+	pointer-events:none;
 }
 iframe{
 	max-width:100%;
