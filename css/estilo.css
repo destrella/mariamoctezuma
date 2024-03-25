@@ -114,6 +114,7 @@ yt-vid,
 .slider .slide{
 	position: relative;
 }
+yt-vid + div,
 .slider video + div,
 .slider img + div{
 	position:absolute;
