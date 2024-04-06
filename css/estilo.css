@@ -182,10 +182,26 @@ main .galeria{
 	display:flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	gap:1rem;
 	flex-shrink: 0;
 	margin:0 auto;
 	max-width:var(--ancho-total);
+}
+.musica main .galeria{
+	gap:1rem;
+}
+.fotos main .galeria{
+	padding:0;
+	list-style:none;
+	align-content:stretch;
+}
+.fotos .galeria .img{
+	margin:0;
+	padding:0;
+	background-size:cover;
+	background-position-x:50%;
+}
+.fotos .legal{
+	margin-top:0;
 }
 main .galeria article{
 	max-width:calc(500px + 2em);
