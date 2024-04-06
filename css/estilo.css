@@ -282,6 +282,7 @@ main footer{
 		display:none;
 	}
 	#header nav li{font-size:.8em;}
+	.fotos main .galeria .img{width:50%!important;}
 }
 @media (max-width: 600px){
 	#logo{background-image:url(/img/maria-moctezuma-logo-blanco-condensado.svg);}
