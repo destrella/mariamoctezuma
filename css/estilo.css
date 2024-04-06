@@ -199,6 +199,7 @@ main .galeria{
 	padding:0;
 	background-size:cover;
 	background-position-x:50%;
+	pointer-events:none;
 }
 .fotos .legal{
 	margin-top:0;
