@@ -37,7 +37,13 @@
 	58% { opacity: 0 }
 	100% { opacity: 0 }
 }
-
+@keyframes animacion-3slides{
+	0% { opacity: 0; animation-timing-function: ease-in; }
+	8% { opacity: 1; animation-timing-function: ease-out; }
+	32% { opacity: 1 }
+	60% { opacity: 0 }
+	100% { opacity: 0 }
+}
 @keyframes animacion-5slides { 
 	0% { opacity: 0; animation-timing-function: ease-in; }
 	8% { opacity: 1; animation-timing-function: ease-out; }
